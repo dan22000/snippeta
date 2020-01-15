@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		658CE6CA23CF1C7500AB4787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CE6C923CF1C7500AB4787 /* AppDelegate.swift */; };
-		658CE6CC23CF1C7500AB4787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CE6CB23CF1C7500AB4787 /* SceneDelegate.swift */; };
 		658CE6CE23CF1C7500AB4787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CE6CD23CF1C7500AB4787 /* ViewController.swift */; };
 		658CE6D123CF1C7500AB4787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658CE6CF23CF1C7500AB4787 /* Main.storyboard */; };
 		658CE6D323CF1C7D00AB4787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658CE6D223CF1C7D00AB4787 /* Assets.xcassets */; };
 		658CE6D623CF1C7D00AB4787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658CE6D423CF1C7D00AB4787 /* LaunchScreen.storyboard */; };
 		658CE6E123CF1C7D00AB4787 /* SnippetATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CE6E023CF1C7D00AB4787 /* SnippetATests.swift */; };
 		658CE6EC23CF1C7D00AB4787 /* SnippetAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CE6EB23CF1C7D00AB4787 /* SnippetAUITests.swift */; };
+		658CE6FA23CF209E00AB4787 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 658CE6F923CF209E00AB4787 /* fail.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		658CE6C623CF1C7500AB4787 /* SnippetA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnippetA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658CE6C923CF1C7500AB4787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		658CE6CB23CF1C7500AB4787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		658CE6CD23CF1C7500AB4787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		658CE6D023CF1C7500AB4787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		658CE6D223CF1C7D00AB4787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		658CE6E723CF1C7D00AB4787 /* SnippetAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnippetAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		658CE6EB23CF1C7D00AB4787 /* SnippetAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetAUITests.swift; sourceTree = "<group>"; };
 		658CE6ED23CF1C7D00AB4787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658CE6F923CF209E00AB4787 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				658CE6C923CF1C7500AB4787 /* AppDelegate.swift */,
-				658CE6CB23CF1C7500AB4787 /* SceneDelegate.swift */,
 				658CE6CD23CF1C7500AB4787 /* ViewController.swift */,
 				658CE6CF23CF1C7500AB4787 /* Main.storyboard */,
+				658CE6F923CF209E00AB4787 /* fail.mp3 */,
 				658CE6D223CF1C7D00AB4787 /* Assets.xcassets */,
 				658CE6D423CF1C7D00AB4787 /* LaunchScreen.storyboard */,
 				658CE6D723CF1C7D00AB4787 /* Info.plist */,
@@ -234,6 +234,7 @@
 			files = (
 				658CE6D623CF1C7D00AB4787 /* LaunchScreen.storyboard in Resources */,
 				658CE6D323CF1C7D00AB4787 /* Assets.xcassets in Resources */,
+				658CE6FA23CF209E00AB4787 /* fail.mp3 in Resources */,
 				658CE6D123CF1C7500AB4787 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +262,6 @@
 			files = (
 				658CE6CE23CF1C7500AB4787 /* ViewController.swift in Sources */,
 				658CE6CA23CF1C7500AB4787 /* AppDelegate.swift in Sources */,
-				658CE6CC23CF1C7500AB4787 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JB5E4734DJ;
 				INFOPLIST_FILE = SnippetA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JB5E4734DJ;
 				INFOPLIST_FILE = SnippetA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
